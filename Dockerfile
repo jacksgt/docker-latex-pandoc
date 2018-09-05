@@ -21,6 +21,7 @@ RUN apt-get update && \
     make \
     pandoc \
     texlive-full \
+    inkscape \
     && apt-get --purge remove -y .\*-doc$ && \
     apt-get clean -y
 
